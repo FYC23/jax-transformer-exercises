@@ -1,6 +1,6 @@
 # JAX Transformer Exercises
 
-Implementation of the coding exercises in [Vlad Feinberg, *How to Land a Frontier Lab Job*](https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html): a small dense transformer, a from-scratch MoE transformer, Chinchilla-style IsoFLOP sweeps for each, and a fused Pallas kernel for grouped MoE matmuls. All code is JAX + Flax dataclasses + Optax, trained on TPU.
+Implementation of the coding exercises from [*How to Land a Frontier Lab Job*](https://vladfeinberg.com/2026/05/10/how-to-land-a-job-at-a-frontier-lab.html): a small dense transformer, a from-scratch MoE transformer, Chinchilla-style IsoFLOP sweeps for each, and a fused Pallas kernel for grouped MoE matmuls. All code is JAX + Flax dataclasses + Optax, trained on TPU.
 
 Full writeup: [`writeup.pdf`](writeup.pdf) (LaTeX source and figures are separate). Results below are reproduced from that document.
 
